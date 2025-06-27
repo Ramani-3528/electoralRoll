@@ -75,6 +75,14 @@ button{
     margin: 0.1rem;
 }
 
+button:hover {
+    background: var(--hover-color); 
+    color: var(--text-color);
+    cursor: pointer;
+    border: none;
+    transform: scale(1.05);
+  }
+
 input{
     width: 77.3%;
     padding: 0.8rem 0rem;
@@ -86,12 +94,15 @@ select{
     border: 0.2rem solid var(--secondaryColor);
     border-radius: 0.5rem;
     padding: 0.8rem;
+
 }
 
 .componentSpacing{
     padding: 2rem 0rem;
 }
-
+.componentSpacing1{
+    padding: 2rem 2rem;
+}
 .screensize1{
     max-width: 1200px;
     margin: auto;
@@ -130,16 +141,17 @@ select{
     display: grid;
     grid-template-columns: 1fr 1fr; 
     gap: 1rem;
-    padding: 0rem 2rem;
+    /* padding: 0rem 2rem; */
 }
 
 :root{
     --primaryColor: #f0f4f8;
     --secondaryColor: #2c3e50;
-    --darkColor: #2980b9;
+    --darkColor: #2a7eb6;
     --lightColor: #feca5a;
     --text-color: #ffffff;
-    --columnColor: #ecf0f1;
+    --columnColor: #f7f7f7;
+    --hover-color: #706c6b;
     --regularFont: 1.6rem;
     --headingFont: 4rem;
     --h3-font: 2rem;
@@ -166,6 +178,7 @@ footer{
     background-color: var(--secondaryColor);
     border-radius: 2rem;
     margin-top: 2rem;
+    padding: 3rem 4rem;
 }
 
 .headingBox p{
@@ -176,7 +189,7 @@ footer{
 .bg-color{
     background-color: var(--columnColor);
     border-radius: 2rem;
-    padding: 1rem;
+    padding: 1rem 0rem;
     margin-top: 2rem;
 }
 
