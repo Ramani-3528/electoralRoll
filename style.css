@@ -249,4 +249,16 @@ th {
         display: grid;
         grid-template-columns: 1fr;
     }
+    h1{
+        font-size: 3rem;
+    }
+
+    .heading{
+        margin: 4rem;
+    }
+
+    .numberBlock{
+        margin-right: 5rem;
+    }
+
 }
