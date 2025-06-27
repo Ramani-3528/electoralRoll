@@ -278,12 +278,9 @@ th {
         align-items: center;
         justify-content: center;
     }
-    /* input{
-        width: 77.3%;
-        padding: 0.8rem 0rem;
-        border-radius: 0.5rem;
-        border: 0.2rem solid var(--secondaryColor);
-    } */
+    input{
+        width: 60%;
+    }
     select{
         padding: 0.3rem;
     }
