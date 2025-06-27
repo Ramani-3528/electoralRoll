@@ -264,6 +264,10 @@ th {
     .numberBlock{
         margin: 2rem 0rem 0rem 0rem;
     }
+
+    .numberWidth{
+        width: 100%;
+    }
     .bg-color2{
         margin-top: 1rem;
         width: 100%;
