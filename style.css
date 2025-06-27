@@ -65,7 +65,7 @@ p{
 }
 
 button{
-    /* font-size: 1.6rem; */
+    font-family: var(--ffPrimary);
     border-radius: 0.5rem;
     cursor: pointer;
     border: 0.2rem solid var(--secondaryColor);
@@ -169,6 +169,7 @@ footer{
 }
 
 .headingBox p{
+    font-family: var(--ffPrimary);
     color: var(--text-color);
 }
 
@@ -192,10 +193,12 @@ footer{
 }
 
 .filesBox p{
+    font-family: var(--ffPrimary);
     margin-top: 0.9rem;
 }
 
 table { 
+    font-family: var(--ffPrimary);
     font-size: var(--regularFont);
     width: 100%; 
     border-collapse: collapse;
