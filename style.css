@@ -270,12 +270,21 @@ th {
         align-items: center;
         justify-content: center;
     }
+    .filesBox p{
+        margin-top: 0.6rem;
+    }
     .UploadBlock{
         display: flex;
         align-items: center;
         justify-content: center;
     }
-    .select{
+    /* input{
+        width: 77.3%;
+        padding: 0.8rem 0rem;
+        border-radius: 0.5rem;
+        border: 0.2rem solid var(--secondaryColor);
+    } */
+    select{
         padding: 0.3rem;
     }
     .exportBox{
