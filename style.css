@@ -245,10 +245,10 @@ th {
 /* Small devices (landscape phones, upto 576px and below) */
 /* @media (width <=576px) */
 @media (max-width: 576px){
-    /* .grid-2{
+    .grid-2{
         display: grid;
         grid-template-columns: 1fr;
-    } */
+    }
     h1{
         font-size: 3rem;
     }
