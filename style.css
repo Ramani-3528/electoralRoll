@@ -94,7 +94,6 @@ select{
     border: 0.2rem solid var(--secondaryColor);
     border-radius: 0.5rem;
     padding: 0.8rem;
-
 }
 
 .componentSpacing{
@@ -252,19 +251,15 @@ th {
     h1{
         font-size: 3rem;
     }
-
     h3{
         font-size: 1.6;
     }
-
     .heading{
         margin: 4rem;
     }
-
     .numberBlock{
         margin: 2rem 0rem 0rem 0rem;
     }
-
     .numberWidth{
         width: 100%;
     }
@@ -272,8 +267,21 @@ th {
         margin-top: 1rem;
         width: 100%;
     }
-
-    .filesBody{
+    .filesBox{
+        align-items: center;
+        justify-content: center;
+    }
+    .UploadBlock{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .select{
+        padding: 0.3rem;
+    }
+    .exportBox{
+        display: flex;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
     }
