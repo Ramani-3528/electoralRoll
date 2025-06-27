@@ -264,5 +264,9 @@ th {
     .numberBlock{
         margin-left: 0rem;
     }
+    .bg-color2{
+        margin: 0;
+        width: 100%;
+    }
 
 }
