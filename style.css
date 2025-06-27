@@ -273,4 +273,9 @@ th {
         width: 100%;
     }
 
+    .filesBox{
+        align-items: center;
+        justify-content: center;
+    }
+
 }
