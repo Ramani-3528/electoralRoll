@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>வாக்காளர் பட்டியல் - Electoral Roll</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./assets/images/favicon.png" type="images/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header></header>
+    <main>
+        <section class="heading componentSpacing screensize2">
+            <div class="headingContainer">
+                <div class="headingBody">
+                    <div class="headingBlock">
+                        <div class="headingBox dflex-col">
+                            <h1><i class="fa-solid fa-check-to-slot"></i> வாக்காளர் பட்டியல்</h1>
+                            <p>சட்டமன்றத் தொகுதி - Electoral Roll</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="electoralBody grid-2">
+                    <div class="infoBlock dflex-col bg-color">
+                        <div class="infoBox">
+                            <h3>சட்டமன்றத் தொகுதியின் எண் மற்றும் பெயர்:</h3>
+                            <p>167-மன்னார்குடி</p>
+                        </div>
+                    </div>
+                    <div class="electoralBlock dflex-col bg-color">
+                        <div class="electoralBox">
+                            <h3>பிரிவு எண் மற்றும் பெயர்:</h3>
+                            <p>1-தளிக் காட்டை (வ.கி) மற்றும் (ஊ), கீழத் தெரு வார்டு-1</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="dateBody grid-2">
+                    <div class="numberBlock dflex-col bg-color2">
+                        <div class="numberBox numberWidth">
+                            <h3>பாகம் எண்:</h3>
+                            <p>133</p>
+                        </div>
+                    </div>
+                    <div class="dateBlock dflex-col bg-color2">
+                        <div class="dateBox numberWidth">
+                            <h3>பட்டியல் வெளியிடப்பட்ட நாள்:</h3>
+                            <p>06-01-2025</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="files componentSpacing screensize">
+            <div class="filesContainer">
+                <div class="filesBody grid-2">
+                    <div class="filesBlock">
+                        <div class="filesBox dflex-start">
+                            <button type="button" class="chooseButton">Choose</button>
+                            <p>No file choosen</p>
+                        </div>
+                    </div>
+                    <div class="UploadBlock">
+                        <div class="UploadBox dflex-end">
+                            <button type="button"><i class="fa-brands fa-js"></i> Upload JSON</button>
+                            <button type="button"><i class="fa-regular fa-file-excel"></i> Upload Excel</button>
+                            <button type="button" id="clear-btn"><i class="fa-solid fa-trash"></i> Clear All</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="filteration componentSpacing">
+            <div class="filterationContainer">
+                <div class="filterationBody">
+                    <div class="filterationBlock">
+                        <div class="filterationBox">
+                            <select name="Columns" id="columns">
+                                <option hidden value="col">All Columns</option>
+                                <option value="id">ID</option>
+                                <option value="name">Name</option>
+                                <option value="father">Father Name</option>
+                                <option value="house">House</option>
+                                <option value="age">Age</option>
+                                <option value="gender">Gender</option>
+                            </select>
+                            <input type="text" id="searchBar" placeholder="தேடுங்கள்...">
+                            <button><i class="fa-solid fa-magnifying-glass"></i> Search</button>
+                            <button><i class="fa-solid fa-arrows-rotate"></i> Reset</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="export componentSpacing">
+            <div class="exportContainer">
+                <div class="exportBody">
+                    <div class="exportBlock dflex-end">
+                        <div class="exportBox">
+                            <button><i class="fa-solid fa-file-csv"></i> Export to CSV</button>
+                            <button><i class="fa-brands fa-js"></i> Download JSON</button>
+                            <button><i class="fa-regular fa-file-excel"></i> Export to Excel</button>
+                            <button><i class="fa-regular fa-file-lines"></i> Export to PDF</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="voterTable componentSpacing">
+            <div class="voterTableContainer">
+                <div class="voterTableBody">
+                    <div class="voterTableBlock">
+                        <div class="voterTableBox">
+                            <table id="voterTable">
+                                <tr>
+                                    <th>வரிசை எண்</th>
+                                    <th>அட்டை எண்</th>
+                                    <th>பெயர்</th>
+                                    <th>தந்தை / கணவர் பெயர்</th>
+                                    <th>வீட்டு எண்</th>
+                                    <th>வயது</th>
+                                    <th>பாலினம்</th>
+                                    <th>நடவடிக்கை</th>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer></footer>
+</body>
+
+</html>

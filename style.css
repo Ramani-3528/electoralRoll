@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Cabin:ital,wght@0,400..700;1,400..700&family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=Lora:ital,wght@0,400..700;1,400..700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Pacifico&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poetsen+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Savate:ital,wght@0,200..900;1,200..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-wrap: pretty;
+    /* border: 0.1rem solid red; */
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: var(--primaryColor);
+}
+
+::-webkit-scrollbar{
+    height: 1.5rem;
+    width: 1rem;
+}
+
+::-webkit-scrollbar-track{
+    background-color: rgb(253, 254, 255);
+    border-radius: 0.4rem;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #a2a2a2;  
+    border-radius: 0.2rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+p{
+    text-wrap: balance;
+}
+
+h1{
+    font-family: var(--ffPrimary);
+    font-size: var(--headingFont);
+	color: var(--text-color);
+    font-weight: 800;
+}
+
+h4{
+    font-family: var(--ffPrimary);
+    font-size: var(--regularFont);
+}
+
+h3{
+    font-family: var(--ffPrimary);
+    text-wrap: balance;
+    font-size: var(--h3-font);
+    /* font-weight: 600; */
+}
+
+p{
+    font-family: var(--ffPrimary);
+    font-size: var(--regularFont);
+}
+
+button{
+    /* font-size: 1.6rem; */
+    border-radius: 0.5rem;
+    cursor: pointer;
+    border: 0.2rem solid var(--secondaryColor);
+    background-color: var(--lightColor);
+    padding: 0.8rem 0rem;
+    width: 8rem;
+    margin: 0.1rem;
+}
+
+input{
+    width: 77.3%;
+    padding: 0.8rem 0rem;
+    border-radius: 0.5rem;
+    border: 0.2rem solid var(--secondaryColor);
+}
+
+select{
+    border: 0.2rem solid var(--secondaryColor);
+    border-radius: 0.5rem;
+    padding: 0.8rem;
+}
+
+.componentSpacing{
+    padding: 2rem 0rem;
+}
+
+.screensize1{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.screensize2{
+    max-width: 1150px;
+    margin: auto;
+}
+
+.dflex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dflex-col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.dflex-end{
+    display: flex;
+    justify-content:end;
+    align-items:end;
+}
+.dflex-start{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+
+.grid-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 1rem;
+    padding: 0rem 2rem;
+}
+
+:root{
+    --primaryColor: #f0f4f8;
+    --secondaryColor: #2c3e50;
+    --darkColor: #2980b9;
+    --lightColor: #feca5a;
+    --text-color: #ffffff;
+    --columnColor: #ecf0f1;
+    --regularFont: 1.6rem;
+    --headingFont: 4rem;
+    --h3-font: 2rem;
+    --ffPrimary: "Nunito";
+    --ffSecondary: ;
+}
+
+header{
+    width: 100%;
+    height: auto;
+}
+
+main{
+    width: 100%;
+    height: auto;
+}
+
+footer{
+    width: 100%;
+    height: auto;
+}
+
+.heading{
+    background-color: var(--secondaryColor);
+    border-radius: 2rem;
+    margin-top: 2rem;
+}
+
+.headingBox p{
+    color: var(--text-color);
+}
+
+.bg-color{
+    background-color: var(--columnColor);
+    border-radius: 2rem;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+.bg-color2{
+    background-color: var(--columnColor);
+    border-radius: 2rem;
+    padding: 1rem;
+    margin: 2rem 0rem;
+    width: 80%;
+}
+
+.numberBlock{
+    margin-left: 11rem;
+}
+
+.filesBox p{
+    margin-top: 0.9rem;
+}
+
+table { 
+    font-size: var(--regularFont);
+    width: 100%; 
+    border-collapse: collapse;
+    margin-top: 2rem; 
+}
+
+th {
+    padding: 1rem; 
+    border: 0.1rem solid var(--columnColor);
+    text-align: center; 
+    background: var(--darkColor); 
+    color: var(--text-color);
+}
+
+.filterationBox button{
+    background-color: var(--darkColor);
+    color: var(--text-color);
+}
+
+.UploadBox button{
+    width: 10rem;
+}
+
+.exportBox button{
+    width: 12rem;
+}
+
+
+
