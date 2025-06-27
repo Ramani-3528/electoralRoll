@@ -113,6 +113,13 @@ select{
     margin: auto;
 }
 
+.grid-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 1rem;
+    /* padding: 0rem 2rem; */
+}
+
 .dflex{
     display: flex;
     align-items: center;
@@ -135,13 +142,6 @@ select{
     display: flex;
     justify-content: start;
     align-items: start;
-}
-
-.grid-2{
-    display: grid;
-    grid-template-columns: 1fr 1fr; 
-    gap: 1rem;
-    /* padding: 0rem 2rem; */
 }
 
 :root{
@@ -238,6 +238,15 @@ th {
 .exportBox button{
     width: 12rem;
 }
+/* ::::: RESPONSIVE DESIGN DEVICE SIZES ::::: */
 
+/* for Responsive Target the ROW Code (display:grid) */
 
-
+/* Small devices (landscape phones, upto 576px and below) */
+/* @media (width <=576px) */
+@media (max-width: 576px){
+    .grid-2{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
