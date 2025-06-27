@@ -99,9 +99,7 @@ select{
 .componentSpacing{
     padding: 2rem 0rem;
 }
-.componentSpacing1{
-    padding: 2rem 2rem;
-}
+
 .screensize1{
     max-width: 1200px;
     margin: auto;
@@ -231,6 +229,7 @@ th {
 }
 
 .UploadBox button{
+    margin-left: 0.4rem;
     width: 10rem;
 }
 
