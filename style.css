@@ -193,8 +193,8 @@ footer{
 .bg-color2{
     background-color: var(--columnColor);
     border-radius: 2rem;
-    padding: 1rem;
-    margin: 2rem 0rem;
+    padding: 1rem 0rem;
+    margin: 2rem 0.3rem;
     width: 80%;
 }
 
@@ -256,8 +256,8 @@ th {
     .heading{
         margin: 4rem;
     }
-    .numberBody{
-        margin-top: 4rem;
+    .numberBlock{
+        margin: 2rem 0rem 0rem 0rem;
     }
     .numberWidth{
         width: 100%;
@@ -291,7 +291,7 @@ th {
         justify-content: center;
     }
     table {
-        font-size: 1rem;
+        font-size: 1.6rem;
     }
 
 }
