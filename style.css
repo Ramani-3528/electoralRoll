@@ -256,11 +256,19 @@ th {
     .heading{
         margin: 4rem;
     }
+    .electoralBody{
+        margin-bottom: 2rem;
+    }
     .numberBlock{
         margin: 0rem;
     }
     .numberWidth{
         width: 100%;
+    }
+    .dateBody{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2rem;
     }
     .bg-color2{
         margin-top: 1rem;
