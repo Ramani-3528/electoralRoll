@@ -290,8 +290,8 @@ th {
         width: 70%;
     }
     select{
-        font-size: 0.6rem;
-        padding: 0.8rem 0.2rem;
+        font-size: 0.8rem;
+        padding: 0.8rem 0.3rem;
     }
     .exportBox{
         display: flex;
