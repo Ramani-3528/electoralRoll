@@ -233,7 +233,7 @@ th {
     width: 10rem;
 }
 
-.exportBox button{
+.exportBody button{
     width: 12rem;
 }
 /* ::::: RESPONSIVE DESIGN DEVICE SIZES ::::: */
@@ -295,12 +295,12 @@ th {
     .filterationBox{
         font-size: 1rem; 
     }
-    .exportBox{
+    /* .exportBox{
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-    }
+    } */
     table {
         font-size: 0.6rem;
     }
