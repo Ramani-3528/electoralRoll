@@ -291,6 +291,7 @@ th {
     }
     select{
         padding: 0.8rem 0.2rem;
+        width: 10rem;
     }
     .filterationBox{
         font-size: 1rem; 
