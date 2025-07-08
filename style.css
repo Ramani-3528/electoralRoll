@@ -306,9 +306,8 @@ th {
         gap: 2rem;
         margin: 1rem;
     }
-    .exportBody button{
-        align-items: center;
-        justify-content: center;
+    .resetButton{
+       margin: 5rem;
     }
 
 }
