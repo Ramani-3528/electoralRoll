@@ -294,15 +294,9 @@ th {
         width: 10rem;
     }
     .filterationBox button{
-        font-size: 1rem; 
-        padding: 0.8rem 0.5rem;
+        font-size: 1rem;
+        width: 6rem;
     }
-    /* .exportBox{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    } */
     table {
         font-size: 0.7rem;
     }
