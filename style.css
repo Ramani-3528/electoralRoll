@@ -307,7 +307,8 @@ th {
         margin: 1rem;
     }
     .exportBody button{
-        width: 17rem;
+        align-items: center;
+        justify-content: center;
     }
 
 }
